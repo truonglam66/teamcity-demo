@@ -1,4 +1,4 @@
-﻿namespace TravisCI
+﻿namespace TeamCity
 {
     public class Program
     {

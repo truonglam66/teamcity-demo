@@ -1,0 +1,9 @@
+language: csharp
+solution: TravisCIDemo.sln
+install:
+  nuget restore TravisCIDemo.sln
+  nuget install NUnit.Runners -Version 3.12.0 -OutputDirectory testrunner
+script:
+  xbuild /p:Configuration=Release TravisCIDemo.sln
+  mono ./testrunner/NUnit.Runners.3.12.0/tools/nunit-console.exe           
+  ./TravisCI.Test/bin/Release/TravisCI.Test.dll

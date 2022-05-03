@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace TravisCI.Test
+namespace TeamCity.Test
 {
     [TestFixture]
     public class TestCalculator
