@@ -12,7 +12,7 @@ namespace TeamCity.Test
             cal = new Calculator();
         }
 
-        [TestCase(1,1,2)]
+        [TestCase(1,1,3)]
         [TestCase(4,4,8)]
         [TestCase(3,2,5)]
         [TestCase(6,4,10)]
