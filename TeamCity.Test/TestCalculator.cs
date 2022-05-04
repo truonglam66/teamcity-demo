@@ -22,7 +22,7 @@ namespace TeamCity.Test
         }
 
         [TestCase(3, 1, 2)]
-        [TestCase(5, 3, 2)]
+        [TestCase(5, 3, 3)]
         [TestCase(4, 3, 1)]
         [TestCase(1, 1, 0)]
         public void TestSub(int a, int b, int c)
