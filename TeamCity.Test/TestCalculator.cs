@@ -15,7 +15,7 @@ namespace TeamCity.Test
         [TestCase(1,1,2)]
         [TestCase(4,4,8)]
         [TestCase(3,2,5)]
-        [TestCase(6,4,9)]
+        [TestCase(6,4,10)]
         public void TestAdd(int a, int b, int c)
         {
             Assert.AreEqual(c, cal.Add(a, b));
